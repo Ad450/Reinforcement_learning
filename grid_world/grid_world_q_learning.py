@@ -173,8 +173,5 @@ class Agent:
         print('----------------------------------')
 
 
-if __name__ == '__main__':
-    ag = Agent()
-    ag.play(50)
-    print(ag.show_values())
+
 

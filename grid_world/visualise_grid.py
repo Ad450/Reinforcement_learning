@@ -15,7 +15,7 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 GREY = (200, 200, 200)
 
-
+# Visualize game agent
 def visualize_agent(agent, start=START):
     pygame.init()
     screen = pygame.display.set_mode((WINDOW_COLS*CELL_SIZE, WINDOW_ROWS*CELL_SIZE))
